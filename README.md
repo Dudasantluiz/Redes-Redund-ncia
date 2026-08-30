@@ -26,7 +26,8 @@ ACLs: Filtragem de pacotes e controle de acesso entre sub-redes.
    - Realize um `traceroute` para validar o roteamento OSPF.
 
 ## 🧪 Testes Realizados
-- [x] PING  8.8.8.8 simulando internet em qualquer dispositivo, após ping com sucesso desligo switch CORE1 simulando uma falha.
+- [x] PING  8.8.8.8 simulando internet em qualquer dispositivo.
+- ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura01.png?raw=true) 
+- [x] após ping com sucesso desligo switch CORE1 simulando uma falha.
 - ![image url]() 
-- [x] Atribuição dinâmica de IP via DHCP nos clientes.
 - [x] Bloqueio do tráfego HTTP via ACL na VLAN de Visitantes.
