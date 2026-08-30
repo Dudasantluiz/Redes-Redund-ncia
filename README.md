@@ -26,8 +26,9 @@ ACLs: Filtragem de pacotes e controle de acesso entre sub-redes.
    - Realize um `traceroute` para validar o roteamento OSPF.
 
 ## 🧪 Testes Realizados
-- [x] PING  8.8.8.8 simulando internet em qualquer dispositivo.
+- [x] PING  8.8.8.8 simulando internet em algum qualquer dispositivo.
 - ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura01.png?raw=true) 
 - [x] após ping com sucesso desligo switch CORE1 simulando uma falha.
+- ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura02.png?raw=true) 
+- [x] em seguida imagem mostra o Core 2 assumindo automaticamente o tráfego da rede
 - ![image url]() 
-- [x] Bloqueio do tráfego HTTP via ACL na VLAN de Visitantes.
