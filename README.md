@@ -31,4 +31,4 @@ ACLs: Filtragem de pacotes e controle de acesso entre sub-redes.
 - [x] após ping com sucesso desligo switch CORE1 simulando uma falha.
 - ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura02.png?raw=true) 
 - [x] em seguida imagem mostra o Core 2 assumindo automaticamente o tráfego da rede
-- ![image url]() 
+- ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura03.png?raw=true) 
