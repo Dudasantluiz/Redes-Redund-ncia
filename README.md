@@ -17,3 +17,16 @@ NAT & Rota Default: Tradução de endereços e roteamento de saída para a Inter
 ACLs: Filtragem de pacotes e controle de acesso entre sub-redes.
 
 ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/Captura%20de%20tela%202026-08-30%20194550.png)
+
+## 🚀 Como Executar o Projeto
+1. Baixe o arquivo `.pkt` localizado na pasta `src/` [neste link](src/rede_corporativa.pkt).
+2. Abra o arquivo no **Cisco Packet Tracer** (versão X.X ou superior).
+3. Para testar a conectividade:
+   - Abra o terminal do `PC-TI-01` e execute: `ping 192.168.20.10`
+   - Realize um `traceroute` para validar o roteamento OSPF.
+
+## 🧪 Testes Realizados
+- [x] PING  8.8.8.8 simulando internet em qualquer dispositivo, após ping com sucesso desligo switch CORE1 simulando uma falha.
+- ![image url]() 
+- [x] Atribuição dinâmica de IP via DHCP nos clientes.
+- [x] Bloqueio do tráfego HTTP via ACL na VLAN de Visitantes.
