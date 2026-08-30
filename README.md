@@ -16,4 +16,4 @@ NAT & Rota Default: Tradução de endereços e roteamento de saída para a Inter
 
 ACLs: Filtragem de pacotes e controle de acesso entre sub-redes.
 
-![image url]{https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/Captura%20de%20tela%202026-08-30%20194550.png}
+![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/Captura%20de%20tela%202026-08-30%20194550.png)
