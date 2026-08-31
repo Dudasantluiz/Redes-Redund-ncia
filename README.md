@@ -33,7 +33,7 @@ ACLs: Filtragem de pacotes e controle de acesso entre sub-redes.
 -  ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura05.png?raw=true)
 
 -  ## 🚀 Como Executar o Projeto
-1. Baixe o arquivo `Projeto redes.pkt` localizado na pasta `src/` [neste link](src/rede_corporativa.pkt).
+1. Baixe o arquivo `Projeto redes.pkt` localizado na pasta `src/` [neste link](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/d97323d2131143162d48b62b9ada6ed2396fd37b/Projeto%20Redes.pkt).
 2. Abra o arquivo no **Cisco Packet Tracer**.
 3. Para testar a conectividade:
    - Abra o terminal do `PC-TI-01` e execute: `ping 192.168.20.10`
