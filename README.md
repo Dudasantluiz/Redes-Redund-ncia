@@ -18,17 +18,23 @@ ACLs: Filtragem de pacotes e controle de acesso entre sub-redes.
 
 ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/Captura%20de%20tela%202026-08-30%20194550.png)
 
-## 🚀 Como Executar o Projeto
-1. Baixe o arquivo `.pkt` localizado na pasta `src/` [neste link](src/rede_corporativa.pkt).
-2. Abra o arquivo no **Cisco Packet Tracer** (versão X.X ou superior).
-3. Para testar a conectividade:
-   - Abra o terminal do `PC-TI-01` e execute: `ping 192.168.20.10`
-   - Realize um `traceroute` para validar o roteamento OSPF.
 
 ## 🧪 Testes Realizados
 - [x] PING  8.8.8.8 simulando internet em algum qualquer dispositivo.
 - ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura01.png?raw=true) 
 - [x] após ping com sucesso desligo switch CORE1 simulando uma falha.
 - ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura02.png?raw=true) 
-- [x] em seguida imagem mostra o Core 2 assumindo automaticamente o tráfego da rede
-- ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura03.png?raw=true) 
+- [x] em seguida imagem mostra o Core 2 assumindo automaticamente o tráfego da rede.
+- ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura03.png?raw=true)
+-  Comando tracert mostrando a nova Rota pelo switch Core 2 com o ip 172.16.10.3.
+-  ![image url]()
+
+-  Comando Tracert mostrando a volta da rota priority no Core 1 de ip 172.16.10.2.
+-  ![image url]()
+
+-  ## 🚀 Como Executar o Projeto
+1. Baixe o arquivo `.pkt` localizado na pasta `src/` [neste link](src/rede_corporativa.pkt).
+2. Abra o arquivo no **Cisco Packet Tracer**.
+3. Para testar a conectividade:
+   - Abra o terminal do `PC-TI-01` e execute: `ping 192.168.20.10`
+   - Realize um `tracert` para validar a redundância do protocolo HSRP.
