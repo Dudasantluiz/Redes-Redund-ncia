@@ -27,7 +27,7 @@ ACLs: Filtragem de pacotes e controle de acesso entre sub-redes.
 - [x] em seguida imagem mostra o Core 2 assumindo automaticamente o tráfego da rede.
 - ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura03.png?raw=true)
 -  Comando tracert mostrando a nova Rota pelo switch Core 2 com o ip 172.16.10.3.
--  ![image url]()
+-  ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura05.png?raw=true)
 
 -  Comando Tracert mostrando a volta da rota priority no Core 1 de ip 172.16.10.2.
 -  ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura04.png?raw=true)
