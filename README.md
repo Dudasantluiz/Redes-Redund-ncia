@@ -30,7 +30,7 @@ ACLs: Filtragem de pacotes e controle de acesso entre sub-redes.
 -  ![image url]()
 
 -  Comando Tracert mostrando a volta da rota priority no Core 1 de ip 172.16.10.2.
--  ![image url]()
+-  ![image url](https://github.com/Dudasantluiz/Redes-Redund-ncia/blob/main/captura04.png?raw=true)
 
 -  ## 🚀 Como Executar o Projeto
 1. Baixe o arquivo `.pkt` localizado na pasta `src/` [neste link](src/rede_corporativa.pkt).
